@@ -43,3 +43,4 @@ evaluate_n(A, x)
 # 두 함수의 수행시간 출력
 print(f'evaluate_n2: {t1_end - t1_start}')
 print(f'evaluate_n: {t2_end - t2_start}')
+
