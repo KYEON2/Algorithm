@@ -44,4 +44,3 @@ evaluate_n(A, x)
 print(f'evaluate_n2: {t1_end - t1_start}')
 print(f'evaluate_n: {t2_end - t2_start}')
 
-#
