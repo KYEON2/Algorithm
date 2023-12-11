@@ -20,6 +20,6 @@ for i in range(1, len1 + 1) :
             dp[i][j] =  dp[i-1][j-1]
         
         else :
-            dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
+            dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1 #dp[i-1][j] => 삭제, dp[i][j-1] => 삽입, dp[i-1][j-1] => 교체
             
 print(dp[len1][len2])
