@@ -36,4 +36,4 @@ while True:
             width = n - stack[-1] -1
             
         answer = max(answer, width*rec[tmp])
-    print(answer)
+    print(answer) 
